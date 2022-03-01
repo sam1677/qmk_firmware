@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "ANNEPRO2_C18",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/keyboards/annepro2",
+                "${workspaceFolder}/keyboards/annepro2/boards/ANNEPRO2_C18",
+                "${workspaceFolder}/keyboards/annepro2/c18"
+            ],
+            "defines": [
+                "ANNEPRO2_C18"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

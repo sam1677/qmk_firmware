@@ -18,6 +18,15 @@
 #pragma once
 #include "quantum.h"
 
+#define ANNEPRO2_LED_MCU_WAKEUP_DELAY 15
+
+#ifdef ANNEPRO2_C15
+#   include "c15/config.h"
+#endif //ANNEPRO2_C15
+#ifdef ANNEPRO2_C18
+#   include "c18/config.h"
+#endif //ANNEPRO2_C18
+
 #define OVERRIDE __attribute__((noinline))
 
 typedef struct __attribute__((__packed__)) {
